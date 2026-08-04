@@ -24,7 +24,7 @@ export default function Contact() {
         className="px-5 py-2 bg-blue-600 text-white text-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
         Contact Me
       </a>
-      <a href="https://github.com/Tar0348/kartar-nnext-app-" target="blank"
+      <a href="https://github.com/Tar0348/kartar-app" target="blank"
       className="px-5 py-2 border border-slate-300 text-slate-700 dark:text-slate-300 text-sm font-semibold rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition">
         GitHub
 
