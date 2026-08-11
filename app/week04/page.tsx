@@ -3,9 +3,13 @@ import Footer from "../components/footer";
 
 export default function ToDoLists(){
 
+    // eslint-disable-next-line prefer-const
     let name = "Chanya Chiewsarikij";
+    // eslint-disable-next-line prefer-const
     let major = "DBI";
+    // eslint-disable-next-line prefer-const
     let studentNo = "026730462005-2";
+    // eslint-disable-next-line prefer-const
     let active = true;
     const role = "Student";
 
@@ -25,6 +29,7 @@ export default function ToDoLists(){
     const getToDoItem = toDoItem.map((item) => {
         //<li>{item}</li>
     return (
+    // eslint-disable-next-line react/jsx-key
     <li className="flex items-center justify-between p-3 bg-gray-50 rounded-lg border border-gray-200 hover:shadow-sm transition-all group">
       <div className="flex items-center gap-3">
         <input
